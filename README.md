@@ -27,8 +27,9 @@ This is a simple polling application built with React. It allows users to vote o
 ## Getting Started
 
 ### Installation
-Clone the repository and install dependencies:
+Clone the repository and install dependencies and simply run with the following command:
 ```bash
 git clone <repository-url>
 cd polling-app
 npm install
+npm run dev
