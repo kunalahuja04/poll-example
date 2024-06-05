@@ -40,12 +40,12 @@ const App = () => {
     setTimeout(() => {
       setCurrentPollIndex((currentPollIndex + 1) % polls.length);
       setShowPoll(true);
-    }, 500); // Match the duration of exit animation
+    }, 500);
   };
 
   const handleClearVotes = () => {
+    setClearVotesTrigger((p) => !!p);
     sessionStorage.clear();
-    setClearVotesTrigger((prev) => !prev); // Toggle the trigger to reset votes
   };
 
   return (
