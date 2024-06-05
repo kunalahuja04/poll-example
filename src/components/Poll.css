@@ -1,0 +1,9 @@
+.poll-option:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
+.poll-option:active {
+    transform: scale(0.98);
+    transition: transform 0.2s;
+}
