@@ -29,7 +29,7 @@ This is a simple polling application built with React. It allows users to vote o
 ### Installation
 Clone the repository and install dependencies and simply run with the following command:
 ```bash
-git clone [<repository-url>](https://github.com/kunalahuja04/poll-example.git)
+git clone https://github.com/kunalahuja04/poll-example.git
 cd polling-app
 npm install
 npm run dev
